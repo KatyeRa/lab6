@@ -9,6 +9,23 @@
 </head>
 <body>
 
+  <div class="col-md-offset-3" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Модальное окно</h2>
+            <div class="modal-body">
+              <p>Текст модального окна</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div>
   <ul class="nav justify-content-center">
     <li class="nav-item">
@@ -23,14 +40,16 @@
   </ul>
 </div>
 
+
+
 <div class="conteiner">
-  <h1>Схема работы DNS</h1>
+  <h1 class="text-left">Схема работы DNS</h1>
   <div class="row">
-    <div class="col-md-4">Широковещательный способ установления соответствия между символьными именами и локальными адресами, подобный протоколу ARP, хорошо работает только в небольшой локальной сети, не разделенной на подсети. В крупных сетях, где возможность всеобщей широковещательной рассылки не поддерживается, нужен другой способ разрешения символьных имен.
-</div>
-  <div class="col-md-4">В сетях TCP/IP соответствие между доменными именами и IP-адресами может устанавливаться средствами как локального хоста, так и централизованной службы.На раннем этапе развития Интернета на каждом хосте вручную создавался текстовый файл с известным именем hosts.txt.
-</div>
- <div class="col-md-4">По мере роста Интернета файлы hosts.txt также увеличивались в объеме, и создание масштабируемого решения для разрешения имен стало необходимостью.Служба DNS использует в своей работе DNS-серверы и DNS-клиенты. DNS-серверы поддерживают распределенную базу отображений, а DNS-клиенты обращаются к серверам с запросами об отображении разрешении доменного имени на IP-адрес.
+    <p class="text-left"><div class="col-md-2 col-lg-3 col-sm-1">Широковещательный способ установления соответствия между символьными именами и локальными адресами, подобный протоколу ARP, хорошо работает только в небольшой локальной сети, не разделенной на подсети. В крупных сетях, где возможность всеобщей широковещательной рассылки не поддерживается, нужен другой способ разрешения символьных имен.
+</div></p>
+  <p class="text-left"><div class="col-md-2 col-lg-3 col-sm-1">В сетях TCP/IP соответствие между доменными именами и IP-адресами может устанавливаться средствами как локального хоста, так и централизованной службы.На раннем этапе развития Интернета на каждом хосте вручную создавался текстовый файл с известным именем hosts.txt.
+</div></p>
+ <div class="col-md-2 col-lg-3 col-sm-1">По мере роста Интернета файлы hosts.txt также увеличивались в объеме, и создание масштабируемого решения для разрешения имен стало необходимостью.Служба DNS использует в своей работе DNS-серверы и DNS-клиенты. DNS-серверы поддерживают распределенную базу отображений, а DNS-клиенты обращаются к серверам с запросами об отображении разрешении доменного имени на IP-адрес.
 </div>
 </div>
 </div>
@@ -60,7 +79,7 @@
       <div class="carousel-inner p-1">
         <div class="carousel-item active">
           <figure class="w-100 d-flex justify-content-center">
-            <img src="C:\Users\racki\Documents\lab6\one.jpg" class="d-block w-50" alt="OSI">
+            <img src="C:\Users\racki\Documents\lab6\two.jpg" class="d-block w-50" alt="OSI">
           </figure>
         </div>
         <div class="carousel-item">
@@ -84,6 +103,10 @@
       </a>
     </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 <table class="table table-hover table-bordered table-dark">
   <thead>
@@ -117,10 +140,11 @@
 </table>
 
 <div class="text-center">
-<figure class="figure">
+<figure class="figure-caption">
   <img src="Web-design-1.jpg" class="figure-img img-fluid rounded" alt="Сопроводительная надпись для изображения.">
 </figure>
 </div>
+
 
 </body>
 </html>
